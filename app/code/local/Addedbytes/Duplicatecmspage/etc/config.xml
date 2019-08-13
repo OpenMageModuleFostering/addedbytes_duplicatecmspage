@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Addedbytes_Duplicatecmspage>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Addedbytes_Duplicatecmspage>
     </modules>
     <global>
@@ -10,6 +10,9 @@
             <adminhtml>
                 <rewrite>
                     <cms_page_edit>Addedbytes_Duplicatecmspage_Block_Adminhtml_Cms_Page_Edit</cms_page_edit>
+                </rewrite>
+                <rewrite>
+                    <cms_block_edit>Addedbytes_Duplicatecmspage_Block_Adminhtml_Cms_Block_Edit</cms_block_edit>
                 </rewrite>
             </adminhtml>
         </blocks>

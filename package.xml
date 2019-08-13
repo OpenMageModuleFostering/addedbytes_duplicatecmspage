@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package>
     <name>Addedbytes_Duplicatecmspage</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License</license>
     <channel>community</channel>
     <extends/>
-    <summary>Adds a button to your CMS to enable quick duplication of CMS pages. Ideal for copying pages between websites!</summary>
-    <description>    &lt;p&gt;Content editing can be a laborious affair at the best of times, but none more so than when you are duplicating a page between websites. This simple extension adds a button the the CMS page editing system to allow instant duplication of any page.&lt;/p&gt;&#xD;
+    <summary>Adds buttons to your CMS to enable quick duplication of CMS pages and static blocks. Ideal for copying pages or blocks between websites!</summary>
+    <description>    &lt;p&gt;Content editing can be a laborious affair at the best of times, but none more so than when you are duplicating a page or static block between websites. This simple extension adds a button the the CMS editing system to allow instant duplication of any page or block.&lt;/p&gt;&#xD;
 &#xD;
     &lt;h3&gt;How Do I Use It?&lt;/h3&gt;&#xD;
 &#xD;
@@ -18,17 +18,17 @@
         &lt;li&gt;Upload the contents of the httpdocs folder to your website root folder&lt;/li&gt;&#xD;
         &lt;li&gt;Clear Magento caches&lt;/li&gt;&#xD;
         &lt;li&gt;Log out and log back in again&lt;/li&gt;&#xD;
-        &lt;li&gt;Edit any CMS page, and you will see a button with the text "Duplicate Page" at the top right.&lt;/li&gt;&#xD;
+        &lt;li&gt;Edit any CMS page, and you will see a button with the text "Duplicate Page" at the top right, or edit any Static Block and you will see "Duplicate Block" at the top right.&lt;/li&gt;&#xD;
     &lt;/ul&gt;&#xD;
 &#xD;
     &lt;h3&gt;How Do I Get Support?&lt;/h3&gt;&#xD;
 &#xD;
     &lt;p&gt;For technical or sales enquiries, please &lt;a href="mailto:support+duplicatecmspage@addedbytes.com"&gt;email our support team&lt;/a&gt;.&lt;/p&gt;</description>
-    <notes>This release includes the base functionality.</notes>
+    <notes>0.1.1 - Added support for Static Block duplication.</notes>
     <authors><author><name>AddedBytes</name><user>AddedBytes</user><email>dave@addedbytes.com</email></author></authors>
-    <date>2014-08-09</date>
-    <time>14:27:43</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Addedbytes_Duplicatecmspage.xml" hash="839e740501685abc3959eccdef994349"/></dir></target><target name="magelocal"><dir name="Addedbytes"><dir name="Duplicatecmspage"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="ce4455daaac2c1e90a2167058f14340b"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="b9760d482ffe63cfc4cf7d478b4a2640"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Cms"><file name="PageController.php" hash="f44f7f04bcf0b090fb8c1a7bddc954eb"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="2db471dd319e35e909fe8df6a295d4bd"/></dir></dir></dir></target><target name="mage"><dir name="."><file name="Installation.pdf" hash="12e6124ebe2410aff79e56dad6ed0739"/></dir></target></contents>
+    <date>2015-08-27</date>
+    <time>13:09:35</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Addedbytes_Duplicatecmspage.xml" hash="839e740501685abc3959eccdef994349"/></dir></target><target name="magelocal"><dir name="Addedbytes"><dir name="Duplicatecmspage"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Block"><file name="Edit.php" hash="c30efd9d3b2d977c53e2e71d48ec728b"/></dir><dir name="Page"><file name="Edit.php" hash="ce4455daaac2c1e90a2167058f14340b"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="b9760d482ffe63cfc4cf7d478b4a2640"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Cms"><file name="BlockController.php" hash="4e13727906d61f7480acffe69f7788cb"/><file name="PageController.php" hash="232e5beb4d2d5b7609d4fb9d8320ee9b"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="ea592514ddbaedb49e6b6d3c00f1424b"/></dir></dir></dir></target><target name="mage"><dir name="."><file name="Installation.pdf" hash="12e6124ebe2410aff79e56dad6ed0739"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

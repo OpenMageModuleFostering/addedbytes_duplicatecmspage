@@ -32,6 +32,9 @@ class Addedbytes_Duplicatecmspage_Adminhtml_Cms_PageController extends Mage_Admi
             // Set data and save
             $duplicatePage->setData($cmsPageData)->save();
 
+            // Feedback
+            Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('cms')->__('The page has been duplicated.'));
+
             // Redirect to new page
             $this->_redirect(
                 '*/*/edit',

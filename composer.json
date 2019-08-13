@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "Open-Software-License",
     "homepage": "",
-    "description": "Adds a button to your CMS to enable quick duplication of CMS pages. Ideal for copying pages between websites!",
+    "description": "Adds buttons to your CMS to enable quick duplication of CMS pages and static blocks. Ideal for copying pages or blocks between websites!",
     "authors": [
     {
         "name": "AddedBytes",
