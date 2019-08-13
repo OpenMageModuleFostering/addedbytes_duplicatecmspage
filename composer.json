@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Addedbytes_Duplicatecmspage",
+    "type": "magento-module",
+    "license": "Open-Software-License",
+    "homepage": "",
+    "description": "Adds a button to your CMS to enable quick duplication of CMS pages. Ideal for copying pages between websites!",
+    "authors": [
+    {
+        "name": "AddedBytes",
+        "email": "dave@addedbytes.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
